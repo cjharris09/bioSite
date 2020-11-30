@@ -4,23 +4,15 @@ html, body {
     background-color: antiquewhite;
 }
 
-
-
-
-
-
 h1 {
     font-family: 'PT Serif', serif;
 }
-
-
 
 .big-hole {
     width: 400px;
     float: right;
     margin: 10px;
 }
-
 
 .business-guy {
     width: 450px;
@@ -29,13 +21,10 @@ h1 {
     margin-bottom: 10px;
 }
 
-
-
-
-.images
-{
+.images {
     display: inline-block;
     width: 450px;
+    margin: 10px;
     }
 
 p { 
@@ -52,3 +41,27 @@ h1 {
     text-align: center;
 }
 
+ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+li a:hover {
+    background-color: greenyellow;
+}
