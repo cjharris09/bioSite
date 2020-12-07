@@ -1,7 +1,17 @@
+body {
+    background-image: url('images/bricks.jpg');
+    background-size: auto;
+    background-blend-mode: luminosity;
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+
+}
+
 html, body {
     font-size: 16px;
     font-family: 'PT Serif', serif;
-    background-color: antiquewhite;
+    
 }
 
 h1 {
@@ -64,4 +74,16 @@ li a {
 
 li a:hover {
     background-color: greenyellow;
+}
+
+.align-left {
+    float: left;
+    margin-right: 15px;
+    width: 450px;
+}
+
+.align-right {
+    float: right;
+    margin-left: 15px;
+    width: 450px;
 }
